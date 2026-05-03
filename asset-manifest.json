@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Navyan_Portfolio/static/css/main.f9f74924.css",
+    "main.js": "/Navyan_Portfolio/static/js/main.fe2e8229.js",
+    "index.html": "/Navyan_Portfolio/index.html",
+    "main.f9f74924.css.map": "/Navyan_Portfolio/static/css/main.f9f74924.css.map",
+    "main.fe2e8229.js.map": "/Navyan_Portfolio/static/js/main.fe2e8229.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f74924.css",
+    "static/js/main.fe2e8229.js"
+  ]
+}
