@@ -2,7 +2,7 @@
   "name": "navyan-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://navyanchaitanya.github.io/portfolio",
+  "homepage": "https://navyanchaitanya.github.io/Navyan_Portfolio",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,10 +15,18 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
