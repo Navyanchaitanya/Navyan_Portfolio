@@ -378,7 +378,7 @@ function Contact() {
 function Footer() {
   return (
     <footer>
-      <div className="footer-text">© 2025 <span>Navyan Chaitanya Raj Kotikalapudi</span></div>
+      <div className="footer-text">© 2026 <span>Navyan Chaitanya Raj Kotikalapudi</span></div>
     </footer>
   );
 }
