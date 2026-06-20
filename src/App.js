@@ -109,7 +109,7 @@ function Hero() {
         <div className="hero-ring-2"></div>
         <div className="hero-core">
           <div className="hero-core-text">
-            <div className="highlight">Python · Java</div>
+            <div className="highlight">Java · Python</div>
             <div>React · Node.js</div>
             <div className="highlight">AI · ML · IoT</div>
           </div>
@@ -117,7 +117,7 @@ function Hero() {
       </div>
 
       <div className="tech-float tf1">React.js</div>
-      <div className="tech-float tf2">Python</div>
+      <div className="tech-float tf2">Java</div>
       <div className="tech-float tf3">Node.js</div>
       <div className="tech-float tf4">PostgreSQL</div>
     </section>
@@ -126,7 +126,7 @@ function Hero() {
 
 // Marquee
 function Marquee() {
-  const items = ['Python', 'React', 'Node.js', 'PostgreSQL', 'Docker', 'AWS', 'MongoDB', 'Flask', 'Git', 'Figma', 'REST API', 'Machine Learning'];
+  const items = ['Java', 'React',  'Node.js', 'PostgreSQL', 'Python', 'Git', 'Figma', 'REST API', 'Machine Learning'];
   const doubled = [...items, ...items];
   return (
     <div className="marquee-wrapper">
@@ -167,10 +167,9 @@ function About() {
         </div>
         <div className="about-facts reveal reveal-delay-2">
           {[
-            { icon: '🎓', title: 'Education', value: 'B.Tech AI & ML — Aditya Engineering College, CGPA: 7.60' },
+            { icon: '🎓', title: 'Education', value: 'B.Tech AI & ML — Aditya Engineering College, CGPA: 7.67' },
             { icon: '📍', title: 'Location', value: 'Kakinada, Andhra Pradesh, India' },
             { icon: '📧', title: 'Email', value: 'navyanchaitanya@gmail.com' },
-            { icon: '📱', title: 'Phone', value: '+91 6281776363' },
             { icon: '⚡', title: 'Status', value: 'Open to Full-time & Internship Roles' },
           ].map((fact, i) => (
             <div key={i} className="fact-card">
@@ -192,22 +191,22 @@ function Skills() {
   const skillGroups = [
     {
       label: 'Languages',
-      skills: ['Python', 'Java', 'JavaScript'],
+      skills: ['Java', 'Python', 'JavaScript'],
       tagClass: 'tag-purple',
     },
     {
       label: 'Frameworks',
-      skills: ['React.js', 'Node.js', 'Express', 'Flask', 'REST API'],
+      skills: ['React.js', 'Node.js', 'Express', 'REST API'],
       tagClass: 'tag-green',
     },
     {
       label: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'Docker', 'Figma', 'AWS', 'Render', 'CI/CD'],
+      skills: ['Git', 'GitHub',  'Figma',  'Render', ],
       tagClass: 'tag-red',
     },
     {
       label: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB'],
+      skills: ['PostgreSQL', 'SQLPlus'],
       tagClass: 'tag-yellow',
     },
   ];
